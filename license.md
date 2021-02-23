@@ -1,29 +1,29 @@
 ---
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '170'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 # Licença do MIT
 
 © Copyright 2020 Adobe. All rights reserved.
 
-A autorização é concedida gratuitamente a qualquer pessoa que receba uma cópia
-deste software e dos arquivos de documentação associados (o &quot;Software&quot;), para lidar com
-no Software sem restrições, incluindo sem limitação os direitos
-para usar, copiar, modificar, intercalar, publicar, distribuir, sublicenciar e/ou vender
-cópias do Software e para permitir pessoas a quem o Software é
-Fornecidos para o efeito, nas seguintes condições:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the &quot;Software&quot;), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-O aviso de copyright acima e este aviso de permissão serão incluídos em todos os
-cópias ou partes substanciais do Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-O SOFTWARE É FORNECIDO &quot;NO ESTADO EM QUE SE ENCONTRA&quot;, SEM GARANTIA DE NENHUM TIPO, EXPRESSA OU
-IMPLÍCITOS, INCLUINDO, MAS NÃO LIMITADOS, ÀS GARANTIAS DE COMERCIABILIDADE,
-ADEQUAÇÃO PARA UM FIM EM PARTICULAR E NÃO INFRAÇÃO. EM NENHUM EVENTO, O
-OS AUTORES OU OS TITULARES DE DIREITOS AUTORAIS SÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANOS OU OUTROS
-RESPONSABILIDADE, QUER NUM ATO DE CONTRATO, DE FATURAMENTO OU DE OUTRA FORMA, RESULTANTE DE,
-FORA OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTROS TRATAMENTOS NO
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
