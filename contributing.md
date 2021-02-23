@@ -1,40 +1,36 @@
 ---
 source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '296'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 # Contribuição
 
-Obrigado por escolher contribuir!
+Obrigado por escolher contribuir.
 
-A seguir está um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+Leia a seguir o conjunto de orientações a serem seguidas ao contribuir para esse projeto.
 
-## Código de Conduta
+## Código de conduta
 
-Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar, é necessário manter este código. Informe um comportamento inaceitável para
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao participar, é necessário manter este código. Denuncie comportamentos inaceitáveis em [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentação do Guia do contribuidor
+## Documentação do Manual do colaborador
 
-Consulte o [Guia do contribuidor](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulte o [Manual do colaborador](https://docs.adobe.com/content/help/br/contributor/contributor-guide/introduction.html).
 
-## Tem Alguma Pergunta?
+## Alguma dúvida?
 
-Start ao arquivar um problema. Os comitês existentes neste projeto trabalham para alcançar
-consenso sobre a direção do projeto e solução de problemas em processos de problemas
-(se for caso disso).
+Comece arquivando um problema. Os comitês existentes neste projeto trabalham para alcançar o
+consenso sobre a direção do projeto e a solução de problemas em processos de problemas
+(quando apropriado).
 
-## Contrato de licença do contribuidor
+## Contrato de licença do colaborador
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contribuinte assinado
-contrato de licença. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). You
-só é necessário enviar um Adobe CLA uma vez, portanto, se você já tiver enviado um anteriormente,
-você é bom para ir!
+Todas as contribuições de terceiros a este projeto devem ser acompanhadas por um contrato de licença do colaborador (CLA) assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). É necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente, você pode continuar.
 
-## Revisões de código
+## Revisões do código
 
 Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Leia a [documentação de solicitação de envio do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obter mais informações sobre envio de pull requests.
 
@@ -43,15 +39,14 @@ Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Do Contribuinte Para O Compartilhador
+## Do colaborador para o confirmador
 
-Adoramos contribuições de nossa comunidade! Se você quiser ir um passo além do contribuidor
-e tornar-se um comitê com acesso total a gravação e voz no projeto, você deve
-ser convidados para o projeto. Os comitês existentes empregam uma nomeação interna
-processo que deve alcançar consenso lento (silêncio é aprovação) antes dos convites
-são emitidos. Se você se sentir qualificado e quiser se envolver mais profundamente,
-sinta-se à vontade para alcançar os compromissos existentes e conversar sobre isso.
+Adoramos contribuições vindas de nossa comunidade. Se você quiser ir um passo além do colaborador
+e se tornar um confirmador com acesso total à gravação e voz ativa no projeto, você deve
+ser convidado para o projeto. Os confirmadores existentes empregam um processo de nomeação interna que deve alcançar consenso lento (silêncio é aprovação) antes dos convites
+serem emitidos. Se você se sentir qualificado e quiser se envolver mais,
+sinta-se à vontade para entrar em contato com os confirmadores existentes e conversar a respeito.
 
 ## Problemas de segurança
 
-Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [registre um problema para nossos especialistas em segurança](https://helpx.adobe.com/security/alertus.html)
+Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [registre um problema junto aos nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
