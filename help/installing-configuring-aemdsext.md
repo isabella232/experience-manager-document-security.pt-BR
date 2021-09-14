@@ -7,9 +7,9 @@ topic-tags: installing
 discoiquuid: f1cdf344-efe4-4cb5-9fc3-47ee4ba5faf4
 exl-id: 88759737-d57f-4354-951e-ad9f62d0a872
 source-git-commit: 13c487b13acb0d65f02301c881bfade512428bcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2764'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Antes de instalar o Document Security Extension for Microsoft Office, verifique 
 >
 >A instalação de uma versão de 32 bits do Document Security Extension em um sistema operacional de 64 bits é suportada, mas o oposto não é suportado. Não é possível instalar a versão de 64 bits do Document Security Extension for Microsoft Office em um sistema operacional de 32 bits.
 
-### Desative o McAfee VirusScan  {#disable-mcafee-virusscan}
+### Desative o McAfee VirusScan {#disable-mcafee-virusscan}
 
 Para garantir que os aplicativos do Office sejam inicializados sem problemas em computadores que contenham o Document Security Extension instalado e o McAfee VirusScan com o On-Access Scan ativado, desative a opção Proteção de sobrecarga de buffer, no console do McAfee VirusScan.
 
@@ -65,7 +65,7 @@ Verifique as seguintes configurações mínimas nas quais você deseja instalar 
 * 2 GB de RAM
 * 100 MB de espaço disponível em disco rígido
 
-### Segurança de documentos {#document-security}
+### Document Security {#document-security}
 
 Para usar o Document Security Extension, certifique-se de que é possível se conectar ao Adobe LiveCycle Rights Management ES2 e posterior ou ao complemento Segurança de documentos para o AEM 6.0 Forms ou posterior.
 
@@ -103,7 +103,7 @@ As etapas a seguir descrevem como criar e configurar um arquivo MSI. Este arquiv
 
 ### Pré-requisitos para personalizar o instalador {#prerequisites-for-customizing-the-installer}
 
-Use o editor de banco de dados Orca para personalizar o instalador. As etapas a seguir descrevem como criar um arquivo MSI personalizado modificando uma cópia do arquivo de instalação MSI usando o editor de banco de dados Orca. A Orca está disponível como parte do SDK do Windows para Windows Server 2008 e .NET Framework 3.5.
+Use o editor de banco de dados Orca para personalizar o instalador. As etapas a seguir descrevem como criar um arquivo MSI personalizado modificando uma cópia do arquivo de instalação MSI usando o editor de banco de dados Orca. O Orca está disponível como parte do SDK do Windows para Windows Server 2008 e .NET Framework 3.5.
 
 <!--
 
@@ -269,7 +269,7 @@ Você pode ativar/desativar a interface sem faixa de opções modificando as con
 
 Você pode alterar as configurações de registro do Windows para fazer com que a marca d&#39;água dinâmica coexista com os cabeçalhos e rodapés existentes. As configurações do Registro disponibilizam a marca d&#39;água somente durante a impressão. Execute as seguintes etapas para atualizar o Registro e ativar as marcas d&#39;água durante a impressão:
 
-1. Faça backup do Registro do Windows antes de fazer alterações. Para obter instruções detalhadas, consulte [Como modificar o Registro do Windows](https://support.microsoft.com/en-us/kb/136393).
+1. Faça backup do Registro do Windows antes de fazer alterações. Para obter instruções detalhadas, consulte [Como modificar o Registro do Windows](https://support.microsoft.com/pt-BR/kb/136393).
 1. No Editor de Registro, navegue até HKEY_CURRENT_USER\Software\Adobe\LiveCycle Rights Management ES4\11.0.0 ou HKEY_LOCAL_MACHINE\WOW6432NODE\Software\Adobe\LiveCycle Rights Management ES4\11.0.0
 1. Crie uma nova chave de Registro **WatermarkMode**.
 1. Na chave de registro WatermarkMode, crie um DWORD **WatermarkMode** e defina o valor de DWORD **WatermarkMode** para **1**.
@@ -363,7 +363,7 @@ O arquivo CommonResources.dll contém informações sobre os modelos de recursos
    >
    >Não exclua e adicione tipos de recursos em ordem aleatória. Depois do 101, configure o 102 e assim por diante.
 
-### Criar pacote personalizado do arquivo CommonResources.dll com o instalador do AEM Document Security Extension for Microsoft Office   {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
+### Criar pacote personalizado do arquivo CommonResources.dll com o instalador do AEM Document Security Extension for Microsoft Office  {#package-custom-commonresources-dll-file-with-the-installer-of-aem-document-security-extension-for-microsoft-office}
 
 É possível personalizar o arquivo CommonResources.dll para incluir a adição de uma página de capa personalizada. Depois de personalizar o arquivo, você pode substituir manualmente o arquivo original pelo arquivo personalizado em todas as estações de trabalho ou escolher um método automatizado para substituir o arquivo.
 
