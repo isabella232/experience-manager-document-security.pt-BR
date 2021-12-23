@@ -1,52 +1,61 @@
 ---
-source-git-commit: 19de0b62ac493c7507581abb607b008c64f77597
-workflow-type: ht
-translation-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 3687bd5e276bd3445d12fb19d911f6a9ded1077d
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 95%
 
 ---
-# Contribuição
+# Contribuição para AEM extensão de segurança de documentos para a documentação do Microsoft Office
 
-Obrigado por escolher contribuir.
+Obrigado por ter optado por contribuir com AEM extensão de segurança de documentos para a documentação do Microsoft Office! As contribuições de conteúdo são bem-vindas de toda a nossa comunidade de leitores, bem como de outros funcionários da Adobe.
 
-Leia a seguir o conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+Esse arquivo descreve como colaborar, além de apontar as diretrizes que devem ser seguidas ao fazer suas contribuições.
 
-## Código de conduta
+## Código de conduta de código aberto da Adobe
 
-Este projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao participar, é necessário manter este código. Denuncie comportamentos inaceitáveis em [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Este projeto adotou o [Código de conduta de código aberto da Adobe](code-of-conduct.md). Ao contribuir com a documentação do AEM, você concorda em seguir este código de conduta. Informe comportamentos inaceitáveis no seguinte email: [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentação do Manual do colaborador
+## Diretrizes de contribuição
 
-Consulte o [Manual do colaborador](https://docs.adobe.com/content/help/br/contributor/contributor-guide/introduction.html).
+Embora qualquer contribuição para aprimorar a documentação do AEM seja bem-vinda, pedimos que as contribuições sigam algumas diretrizes e normas sempre que possível. Consulte as [Diretrizes de contribuição na documentação do AEM](guidelines.md) para obter mais informações.
 
-## Alguma dúvida?
+## Como colaborar
 
-Comece arquivando um problema. Os comitês existentes neste projeto trabalham para alcançar o
-consenso sobre a direção do projeto e a solução de problemas em processos de problemas
-(quando apropriado).
+Queremos facilitar ao máximo o envio de suas contribuições. Você pode colaborar de duas maneiras:
 
-## Contrato de licença do colaborador
+* [Criação de um tópico](#create-an-issue)
+* [Criação de um pull request](#create-a-pull-request)
 
-Todas as contribuições de terceiros a este projeto devem ser acompanhadas por um contrato de licença do colaborador (CLA) assinado. Isso dá à Adobe a permissão de redistribuir suas contribuições como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). É necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente, você pode continuar.
+O método de escolha depende do quanto você se sente confortável em editar a documentação no GitHub.
 
-## Revisões do código
+>[!NOTE]
+>
+>As contribuições enviadas estão cobertas pelos [Termos de uso da Adobe.](https://www.adobe.com/br/legal/terms.html)
 
-Todos os envios devem vir na forma de solicitações de envio e precisam ser revisados pelos confirmadores do projeto. Leia a [documentação de solicitação de envio do GitHub](https://help.github.com/pt/github/collaborating-with-issues-and-pull-requests/about-pull-requests) para obter mais informações sobre envio de pull requests.
+### Criação de um tópico {#create-an-issue}
 
-<!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
-submitting a pull request!
--->
+Você tem uma sugestão, uma observação sobre os documentos atuais ou alguma dúvida relacionada à maneira como algo está descrito? Nesse caso, crie um tópico. Tópicos são excelentes se você tiver alguma contribuição, mas não se sente confortável em editar os documentos ou criar um pull request.
 
-## Do colaborador para o confirmador
+Com os tópicos, você pode descrever facilmente sua ideia para aprimorar os documentos, e um membro da equipe do AEM Docs pode revisá-la. Basta clicar no link **registrar um tópico** na parte superior do painel de navegação direito em qualquer página para criar um tópico.
 
-Adoramos contribuições vindas de nossa comunidade. Se você quiser ir um passo além do colaborador
-e se tornar um confirmador com acesso total à gravação e voz ativa no projeto, você deve
-ser convidado para o projeto. Os confirmadores existentes empregam um processo de nomeação interna que deve alcançar consenso lento (silêncio é aprovação) antes dos convites
-serem emitidos. Se você se sentir qualificado e quiser se envolver mais,
-sinta-se à vontade para entrar em contato com os confirmadores existentes e conversar a respeito.
+### Criação de um pull request {#create-a-pull-request}
 
-## Problemas de segurança
+Se você vir um problema e souber exatamente como corrigi-lo, considere a criação de um pull request. Com pull requests é possível fazer edições na documentação, que depois são revisadas e incluídas por um membro da equipe do AEM Docs. Basta clicar no link **Editar esta página** na parte superior do painel de navegação direito em qualquer página para fazer as alterações sugeridas e criar o pull request.
 
-Problemas de segurança não devem ser relatados neste rastreador de problemas. Em vez disso, [registre um problema junto aos nossos especialistas em segurança](https://helpx.adobe.com/br/security/alertus.html)
+Todos os pull requests devem estar acompanhados de um [contrato de licença de colaborador ou CLA assinado.](https://opensource.adobe.com/cla.html)  Dessa forma, a Adobe tem permissão de redistribuir suas contribuições como parte do projeto. É necessário enviar somente um CLA da Adobe por vez. Se já tiver enviado anteriormente, você pode prosseguir.
+
+### Vídeo de introdução rápido
+
+Assista ao vídeo a seguir para obter uma visão geral rápida de como criar tópicos e pull requests.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27069)
+
+### Contribuições de funcionários da Adobe
+
+Se você for funcionário da Adobe e tiver uma contribuição, use o `AdobeDocs` org no git corporativo.
+
+Apesar de qualquer contribuição ser bem-vinda e analisada quando feita no repositório público, os pull requests de funcionários da Adobe são mais fáceis de processar e podem ser aprovados com mais rapidez no repositório corporativo. Certifique-se de que qualquer informação de propriedade seja discutida somente no repositório corporativo.
+
+## Informações adicionais
+
+Consulte o [Manual do colaborador do Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR) para obter mais detalhes sobre como usar a plataforma de criação do GitHub.
