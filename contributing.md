@@ -1,13 +1,13 @@
 ---
 source-git-commit: 3687bd5e276bd3445d12fb19d911f6a9ded1077d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-# Contribuição para AEM extensão de segurança de documentos para a documentação do Microsoft Office
+# Contribuição para a documentação da Extensão de segurança de documentos AEM para Microsoft Office
 
-Obrigado por ter optado por contribuir com AEM extensão de segurança de documentos para a documentação do Microsoft Office! As contribuições de conteúdo são bem-vindas de toda a nossa comunidade de leitores, bem como de outros funcionários da Adobe.
+Agradecemos a sua escolha por contribuir com a documentação da Extensão de segurança de documentos AEM para Microsoft Office. As contribuições de conteúdo são bem-vindas de toda a nossa comunidade de leitores, bem como de outros funcionários da Adobe.
 
 Esse arquivo descreve como colaborar, além de apontar as diretrizes que devem ser seguidas ao fazer suas contribuições.
 
