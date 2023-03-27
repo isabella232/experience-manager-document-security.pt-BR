@@ -75,7 +75,7 @@ Se for necessário acessar as páginas da Web usando a Segurança de documentos 
 >Se não conseguir se conectar ao servidor, tente abrir as páginas da Web de Segurança de documentos no Internet Explorer. Se não conseguir se conectar ao servidor usando o Internet Explorer ou se uma caixa de diálogo exibir um aviso sobre o certificado do servidor, a Extensão de segurança de documentos para Microsoft® Office não poderá se conectar ao servidor. Entre em contato com o administrador do servidor para obter assistência.
 
 >[!NOTE]
-Se não conseguir se conectar à Segurança de documentos, será exibida uma mensagem informando que &quot;O nome de usuário e a senha estão incorretos. Verifique as configurações e tente novamente.&quot; Esta mensagem poderá ser exibida se você não conseguir se conectar por outro motivo. Se estiver se conectando ao servidor pela primeira vez, verifique se definiu o nome do servidor e a porta corretamente.
+>Se não conseguir se conectar à Segurança de documentos, será exibida uma mensagem informando que &quot;O nome de usuário e a senha estão incorretos. Verifique as configurações e tente novamente.&quot; Esta mensagem poderá ser exibida se você não conseguir se conectar por outro motivo. Se estiver se conectando ao servidor pela primeira vez, verifique se definiu o nome do servidor e a porta corretamente.
 
 #### Especificação do servidor padrão {#specify-the-default-server}
 
@@ -109,7 +109,7 @@ Execute as seguintes etapas para habilitar a autenticação estendida com o URL 
    Clique em **[!UICONTROL Salvar]**.
 
    >[!NOTE]
-   Use um nome de host totalmente qualificado no URL. É recomendável usar o protocolo HTTPS.
+   >Use um nome de host totalmente qualificado no URL. É recomendável usar o protocolo HTTPS.
 
    Agora, a Segurança de documentos do AEM Forms está configurada para usar autenticação estendida com o URL padrão de aterrissagem do AEM Forms.
 
@@ -133,7 +133,7 @@ Para ativar a autenticação estendida com um URL de destino personalizado:
 1. Adicione as seguintes entradas ao arquivo config.xml sob o nó SSO após a entrada *&lt;node name=&quot;AllowedUrls&quot;>*:
 
    >[!NOTE]
-   &lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
+   >&lt;entry key=&quot;sso-l&quot; value=&quot;/ sample_/login.jsp&quot;/>!!discoiqbr!!&lt;entry key=&quot;sso-s&quot; value=&quot;/ sample_/welcome.jsp&quot;>!!discoiqbr!!&lt;entry key=&quot;sso-o&quot; value=&quot;/ sample_/logout.jsp&quot;/>!!discoiqbr!!
 
    Para obter informações detalhadas sobre a atualização do arquivo config.xml, consulte [Editar manualmente o arquivo de configuração de segurança de documentos](https://helpx.adobe.com/br/aem-forms/6-3/admin-help/configuring-client-server-options.html#manually_editing_the_document_security_configuration_file).
 
@@ -178,7 +178,7 @@ Se você ainda não tiver uma conta de Segurança de documentos, a Segurança de
 Após registrar e ativar sua conta, você pode usar arquivos protegidos por política para os quais recebeu autorização para uso por meio de uma política.
 
 >[!NOTE]
-Se você receber um arquivo protegido por política e não tiver uma conta de Segurança de documentos, ou se receber um convite para se registrar, entre em contato com a pessoa que enviou o arquivo para obter assistência.
+>Se você receber um arquivo protegido por política e não tiver uma conta de Segurança de documentos, ou se receber um convite para se registrar, entre em contato com a pessoa que enviou o arquivo para obter assistência.
 
 Se você receber um convite de registro por email da Segurança de documentos, poderá se registrar usando o URL no email para abrir a página de registro online. Depois de se registrar, você receberá um segundo aviso sobre como ativar sua conta.
 
@@ -189,7 +189,7 @@ Se você receber um convite de registro por email da Segurança de documentos, p
 1. Digite seu nome, organização e senha nas caixas apropriadas. Sua senha pode ser qualquer combinação de oito caracteres.
 
    >[!NOTE]
-   Escolha uma senha fácil de lembrar. Não há nenhum método disponível para encontrar senhas esquecidas.
+   >Escolha uma senha fácil de lembrar. Não há nenhum método disponível para encontrar senhas esquecidas.
 
 1. Clique em **Registrar**. Será exibida uma mensagem informando para verificar se há uma mensagem de email de ativação.
 1. Abra o email de confirmação de registro da Segurança de documentos.
@@ -327,7 +327,7 @@ Para obter mais informações sobre como criar e gerenciar políticas, consulte 
 Depois de aplicar uma política, ela é adicionada à lista Recentemente usada no menu Segurança de documentos do AEM para facilitar a aplicação das políticas usadas com mais frequência. Se você usar mais de uma instância de Segurança de documentos. A lista Recentemente usada exibirá as políticas somente para o servidor ao qual você está conectado no momento ou para o servidor padrão se você ainda não tiver feito logon em uma instância de Segurança de documentos.
 
 >[!NOTE]
-Você pode aplicar políticas apenas a arquivos de documentos do Word (.doc, também .docx e .docm no Microsoft® Office 2010 e 2013), arquivos de pasta de trabalho do Excel (.xls, também .xlsx e .xlsm no Microsoft® Office 2010 e 2013) e arquivos de apresentação do PowerPoint (.ppt, também .pptx e .pptm no Microsoft® Office 2010 e 2013). Não é possível aplicar políticas a arquivos de modelo do Word (.dot), arquivos de modelo do Excel (.xlt) e arquivos de modelo de design do PowerPoint (.pot).
+>Você pode aplicar políticas apenas a arquivos de documentos do Word (.doc, também .docx e .docm no Microsoft® Office 2010 e 2013), arquivos de pasta de trabalho do Excel (.xls, também .xlsx e .xlsm no Microsoft® Office 2010 e 2013) e arquivos de apresentação do PowerPoint (.ppt, também .pptx e .pptm no Microsoft® Office 2010 e 2013). Não é possível aplicar políticas a arquivos de modelo do Word (.dot), arquivos de modelo do Excel (.xlt) e arquivos de modelo de design do PowerPoint (.pot).
 
 #### Aplicação de uma política {#apply-a-policy}
 
@@ -358,7 +358,7 @@ A Extensão de segurança de documentos para Microsoft® Office restringe determ
 Se estiver trabalhando com um arquivo protegido por política, alguns recursos do produto podem não estar disponíveis ou podem não funcionar normalmente. Se você também tiver um arquivo desprotegido aberto, a maioria dos recursos será ativada para o arquivo desprotegido, exceto aqueles que permitem importar ou copiar conteúdo de um arquivo protegido por política para o qual você não tem permissões de cópia ou exportação.
 
 >[!NOTE]
-Ao usar aplicativos do Office compatíveis com o Document Security Extension, é recomendado desativar a configuração do DEP do Windows. Além disso, para garantir que os aplicativos do Office sejam inicializados sem problemas em um computador com o Document Security Extension instalado e o McAfee VirusScan com o On-Access Scan ativado, desative a opção Proteção de sobrecarga de buffer no console do McAfee VirusScan.
+>Ao usar aplicativos do Office compatíveis com o Document Security Extension, é recomendado desativar a configuração do DEP do Windows. Além disso, para garantir que os aplicativos do Office sejam inicializados sem problemas em um computador com o Document Security Extension instalado e o McAfee VirusScan com o On-Access Scan ativado, desative a opção Proteção de sobrecarga de buffer no console do McAfee VirusScan.
 
 Se um recurso não estiver disponível, o nome do comando no menu e o botão da barra de ferramentas relacionado não estarão disponíveis. Na Extensão de segurança de documentos para Microsoft® Office, ao passar o ponteiro do mouse sobre o comando ou botão, uma dica de ferramenta indica que o comando está indisponível devido à Segurança de documentos.
 
@@ -385,7 +385,7 @@ Se você tiver permissão, poderá remover a proteção por política dos arquiv
    Caso você ainda não tenha fornecido informações de logon para a Segurança de documentos, uma caixa de diálogo solicitará seu nome de usuário e senha.
 
 >[!NOTE]
-Se não conseguir remover uma política de um arquivo protegido, entre em contato com um administrador da Segurança de documentos.
+>Se não conseguir remover uma política de um arquivo protegido, entre em contato com um administrador da Segurança de documentos.
 
 ### Exibição de configurações de segurança {#viewing-security-settings}
 
@@ -404,7 +404,7 @@ Se o administrador tiver ativado a funcionalidade de Aplicação automática de 
 Se a Aplicação automática de política estiver ativada, a Extensão de segurança de documentos para Microsoft® Office solicitará que você efetue logon no servidor da Segurança de documentos. Você deve fornecer seu Nome de usuário e Senha para ser autenticado pelo servidor. Se você tiver fornecido as credenciais de logon corretas, o documento será salvo e protegido.
 
 >[!NOTE]
-Caso não consiga fazer logon na Segurança de documentos, o documento poderá ou não poderá ser salvo. Isso depende de como o administrador configurou a Aplicação automática de política. Consulte o administrador para saber como os documentos são tratados nessa situação.
+>Caso não consiga fazer logon na Segurança de documentos, o documento poderá ou não poderá ser salvo. Isso depende de como o administrador configurou a Aplicação automática de política. Consulte o administrador para saber como os documentos são tratados nessa situação.
 
 ### Sincronização para acesso offline {#synchronizing-for-offline-access}
 
@@ -542,7 +542,7 @@ A maioria das políticas concede permissões totais ao editor do arquivo. Outros
 Se um comando não estiver disponível, o nome do comando no menu e o botão da barra de ferramentas relacionado ficam esmaecidos.
 
 >[!NOTE]
-Aplicar uma política a um arquivo que contenha um link para um arquivo incorporado não aplica a política ao arquivo vinculado. A Segurança de documentos para Microsoft® Office não estende a proteção a arquivos vinculados.
+>Aplicar uma política a um arquivo que contenha um link para um arquivo incorporado não aplica a política ao arquivo vinculado. A Segurança de documentos para Microsoft® Office não estende a proteção a arquivos vinculados.
 
 * Arquivos do Word, Excel e PowerPoint protegidos por política estão impedidos de abrir em uma janela do navegador Internet Explorer.
 * Os usuários aos quais foi concedida somente a permissão Alterar não podem copiar o conteúdo para um arquivo de outro aplicativo usando a Área de transferência do Windows. Os usuários podem copiar conteúdo para arquivos, ativando a opção Área de transferência do Microsoft® Office.
