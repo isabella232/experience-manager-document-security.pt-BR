@@ -6,8 +6,8 @@ user-guide-description: A solução Document Security Extension for Microsoft® 
 feature: Document Security
 role: User
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '97'
 ht-degree: 100%
 
 ---
