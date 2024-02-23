@@ -8,7 +8,7 @@ discoiquuid: cf93f9f5-1fb6-4909-815e-0ffb8c6ea6d1
 exl-id: 3e07c031-3f88-4bde-bdb3-b136ef5f9527
 source-git-commit: 28137f26afc024d411857d44887bf69fe1ee2b81
 workflow-type: ht
-source-wordcount: '1313'
+source-wordcount: '1288'
 ht-degree: 100%
 
 ---
@@ -50,11 +50,11 @@ Quando um usuário tentar abrir um arquivo protegido por política, a Extensão 
 * Pelo período de validade especificado na política.
 * Até que um administrador ou a pessoa que aplicou a política revogue o acesso ao arquivo ou altere a política.
 
-   Se a pessoa que aplicou a política alterar a política ou revogar o acesso ao arquivo, as permissões do usuário para o arquivo serão alteradas ou removidas, mesmo que o usuário já tenha o arquivo. Se o próprio arquivo for revogado, um URL poderá ser fornecido ao usuário para que ele obtenha uma cópia atualizada.
+  Se a pessoa que aplicou a política alterar a política ou revogar o acesso ao arquivo, as permissões do usuário para o arquivo serão alteradas ou removidas, mesmo que o usuário já tenha o arquivo. Se o próprio arquivo for revogado, um URL poderá ser fornecido ao usuário para que ele obtenha uma cópia atualizada.
 
-   É possível abrir offline (sem uma conexão com a Internet ou com uma rede) arquivos protegidos por política, se a política permitir acesso offline, durante o período de concessão offline especificado na política. Ao término do período de concessão offline, o usuário deverá se conectar à Internet e sincronizar com a Segurança de documentos, o que inicia um novo período de concessão.
+  É possível abrir offline (sem uma conexão com a Internet ou com uma rede) arquivos protegidos por política, se a política permitir acesso offline, durante o período de concessão offline especificado na política. Ao término do período de concessão offline, o usuário deverá se conectar à Internet e sincronizar com a Segurança de documentos, o que inicia um novo período de concessão.
 
-   Se a política permitir que o arquivo seja salvo e um usuário salvar uma cópia do arquivo, a política será automaticamente aplicada e imposta para o arquivo salvo. Eventos, como tentativas de abrir o novo arquivo, também são auditados e registrados da mesma maneira que o arquivo original.
+  Se a política permitir que o arquivo seja salvo e um usuário salvar uma cópia do arquivo, a política será automaticamente aplicada e imposta para o arquivo salvo. Eventos, como tentativas de abrir o novo arquivo, também são auditados e registrados da mesma maneira que o arquivo original.
 
 ## Uso da Segurança de documentos para proteger seus arquivos {#using-document-security-to-protect-your-files}
 
